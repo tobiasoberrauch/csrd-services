@@ -1,0 +1,342 @@
+[
+    {
+        "id": "ESRS E1",
+        "description": "Klimawandel – Berichterstattung über klimabezogene Risiken, Minderungsmaßnahmen, Übergangspläne zur Reduzierung von Treibhausgasemissionen (Fokus auf Emissionsreduktionen, Anpassungsstrategien und klimabezogene Risiken, z. B. Dekarbonisierungsziele, Einsatz erneuerbarer Energien, TCFD-konforme Klimaszenarioanalysen).",
+        "themes": [
+            {
+                "id": "E1-1",
+                "description": "Bewertung von Klimarisiken und Anfälligkeiten"
+            },
+            {
+                "id": "E1-2",
+                "description": "Treibhausgas-Entnahmen und Kompensationen"
+            },
+            {
+                "id": "E1-3",
+                "description": "Treibhausgas-Intensität pro Umsatz und Produkt"
+            },
+            {
+                "id": "E1-4",
+                "description": "Aufschlüsselung des Verbrauchs erneuerbarer und nicht erneuerbarer Energie"
+            },
+            {
+                "id": "E1-5",
+                "description": "Klima-Transformationsplan im Einklang mit dem Pariser Abkommen"
+            },
+            {
+                "id": "E1-6",
+                "description": "Brutto-Treibhausgasemissionen (Scope 1, 2 und 3)"
+            },
+            {
+                "id": "E1-7",
+                "description": "Finanzielle Auswirkungen klimabezogener Risiken und Chancen"
+            },
+            {
+                "id": "E1-8",
+                "description": "Preisgestaltung für Kohlenstoff, einschließlich des internen Kohlenstoffpreissystems, Preis pro Tonne THG-Emissionen, Annahmen, Abdeckung der Bereiche 1, 2, 3 und Übereinstimmung mit Finanzberichten."
+            },
+            {
+                "id": "E1-9",
+                "description": "Vermögenswerte, die materiellen Klimarisiken (akuten und chronischen) ausgesetzt sind, Anpassungsmaßnahmen, finanziellen Auswirkungen, gestrandeten Vermögenswerten, Übergangsrisiken und monetarisierten THG-Emissionen mit Einsparpotenzial."
+            }
+        ]
+    },
+    {
+        "id": "ESRS E2",
+        "description": "Umweltverschmutzung – Offenlegung von Maßnahmen, Richtlinien und Zielen zur Minimierung von Schadstoffemissionen und Verschmutzungen, Vermeidung oder Reduktion von Umweltauswirkungen sowie Verringerung von NOx- und SOx-Emissionen, Einsatz von Filteranlagen und Einhaltung von EU-Umweltnormen.",
+        "themes": [
+            {
+                "id": "E2-1",
+                "description": "Emissionen von Luftschadstoffen (SOx, NOx, Feinstaub, VOCs)"
+            },
+            {
+                "id": "E2-2",
+                "description": "Einleitungen von Wasserverunreinigungen und Eindämmungsmaßnahmen"
+            },
+            {
+                "id": "E2-3",
+                "description": "Abfallaufkommen und Management gefährlicher Abfälle"
+            },
+            {
+                "id": "E2-4",
+                "description": "Maßnahmen zur Reduzierung chemischer und toxischer Substanzen"
+            },
+            {
+                "id": "E2-5",
+                "description": "Einhaltung von Umweltvorschriften und Standards"
+            },
+            {
+                "id": "E2-6",
+                "description": "Offenlegung der finanziellen Auswirkungen von Umwelt­risiken und -chancen, einschließlich Nettoumsatz aus Produkten mit bedenklichen Stoffen, OpEx, CapEx und Rückstellungen für Umweltschutz und Sanierungskosten."
+            }
+        ]
+    },
+    {
+        "id": "ESRS E3",
+        "description": "Wasser- und Meeresressourcen – Berichterstattung über verantwortungsvollen Umgang mit Wasserressourcen und marinen Ökosystemen, inklusive nachhaltigem Wassermanagement, Wasserverbrauch, -qualität, Schutz mariner Lebensräume und deren nachhaltige Nutzung (z. B. Messung des Wasserverbrauchs, Investitionen in Wasseraufbereitungsanlagen, Schutz von Korallenriffen).",
+        "themes": [
+            {
+                "id": "E3-1",
+                "description": "Wasserentnahme und -verbrauch nach Quelle"
+            },
+            {
+                "id": "E3-2",
+                "description": "Bewertung und Maßnahmen zur Minderung von Wasserstress"
+            },
+            {
+                "id": "E3-3",
+                "description": "Auswirkungen auf Meeresökosysteme und Schutzmaßnahmen"
+            },
+            {
+                "id": "E3-4",
+                "description": "Maßnahmen zur Kontrolle und Behandlung von Wasserverschmutzung"
+            },
+            {
+                "id": "E3-5",
+                "description": "Strategien zur Wiederverwendung und Effizienzsteigerung von Wasser"
+            }
+        ]
+    },
+    {
+        "id": "ESRS E4",
+        "description": "Biodiversität und Ökosysteme – Darstellung von Maßnahmen zum Erhalt, zur Wiederherstellung und nachhaltigen Nutzung biologischer Vielfalt, natürlicher Lebensräume und Ökosystemleistungen (z. B. Aufforstungsprojekte, Schutz seltener Tier- und Pflanzenarten, Vermeidung von Eingriffen in sensible Ökosysteme).",
+        "themes": [
+            {
+                "id": "E4-1",
+                "description": "Flächennutzung und Überwachung der Abholzung"
+            },
+            {
+                "id": "E4-2",
+                "description": "Auswirkungen auf Schutzgebiete und wichtige Biodiversitätszonen"
+            },
+            {
+                "id": "E4-3",
+                "description": "Bewertung und Maßnahmen zur Minderung von Biodiversitätsrisiken"
+            },
+            {
+                "id": "E4-4",
+                "description": "Wiederherstellungs- und Naturschutzprojekte"
+            },
+            {
+                "id": "E4-5",
+                "description": "Berichterstattung über Biodiversitätsausgleichsmaßnahmen"
+            },
+            {
+                "id": "E4-6",
+                "description": "Quantitative und qualitative Schätzungen der finanziellen Auswirkungen von Risiken in Bezug auf biologische Vielfalt und Ökosysteme, einschließlich Abhängigkeiten, Annahmen und Bewertungen von risikobehafteten Produkten und Dienstleistungen."
+            }
+        ]
+    },
+    {
+        "id": "ESRS E5",
+        "description": "Ressourcennutzung und Kreislaufwirtschaft – Offenlegung von Strategien zur effizienten Ressourcennutzung, Abfallminimierung, Wiederverwendung, Recycling und Implementierung von Prinzipien der Kreislaufwirtschaft (z. B. Cradle-to-Cradle-Design, Einsatz recycelter Materialien, Rücknahmesysteme für Altgeräte).",
+        "themes": [
+            {
+                "id": "E5-1",
+                "description": "Materialeffizienz und nachhaltige Beschaffungsrichtlinien"
+            },
+            {
+                "id": "E5-2",
+                "description": "Reduzierung des Abfallaufkommens und Recyclingquoten"
+            },
+            {
+                "id": "E5-3",
+                "description": "Geschäftsmodelle und Initiativen zur Kreislaufwirtschaft"
+            },
+            {
+                "id": "E5-4",
+                "description": "Bewertung und Minimierung der Ressourcenabhängigkeit"
+            },
+            {
+                "id": "E5-5",
+                "description": "Lebenszyklusanalyse zentraler Produkte und Dienstleistungen"
+            },
+            {
+                "id": "E5-6",
+                "description": "Offenlegung quantitativer und qualitativer Informationen zu den finanziellen Auswirkungen von Risiken und Chancen durch Ressourcennutzung und Kreislaufwirtschaft, einschließlich Annahmen, Zeithorizonten und Ressourceneffekten."
+            }
+        ]
+    },
+    {
+        "id": "ESRS S1",
+        "description": "Eigene Belegschaft – Informationen zu sozialen Aspekten für direkt beim Unternehmen beschäftigte Mitarbeitende, wie Arbeitsbedingungen, Vergütung, Arbeitsschutz, Aus- und Weiterbildung, Diversität und Inklusion (z. B. faire Lohnstrukturen, flexible Arbeitszeitmodelle, betriebliche Gesundheitsprogramme, Weiterbildungsinitiativen und Förderprogramme für Vielfalt).",
+        "themes": [
+            {
+                "id": "S1-1",
+                "description": "Demografie der Belegschaft (Alter, Geschlecht, Diversitätskennzahlen)"
+            },
+            {
+                "id": "S1-2",
+                "description": "Arbeitsplatzsicherheit und Beschäftigungsverträge (befristet vs. unbefristet)"
+            },
+            {
+                "id": "S1-3",
+                "description": "Unfallrate und Arbeitsschutzmaßnahmen"
+            },
+            {
+                "id": "S1-4",
+                "description": "Schulung, Weiterqualifizierung und berufliche Entwicklung"
+            },
+            {
+                "id": "S1-5",
+                "description": "Vergütung, Zusatzleistungen und Lohngleichheit"
+            },
+            {
+                "id": "S1-6",
+                "description": "Merkmale der Belegschaft, Beschäftigtenzahl nach Geschlecht, Vertragsart, Regionen, Fluktuation, Methoden, Annahmen zu Kopfzahl, Vollzeitäquivalenten und Beschäftigungskontext, mit Aufschlüsselung nach Geschlecht und Region."
+            },
+            {
+                "id": "S1-7",
+                "description": "Zahl der Nichtbeschäftigten, einschließlich Selbstständiger und von Arbeitsvermittlungen gestellter Personen. Aufschlüsselung nach Arbeitsart, Unternehmensbeziehung und Schätzmethoden, mit relevanten Hintergrundinformationen."
+            },
+            {
+                "id": "S1-8",
+                "description": "Prozentsatz der Beschäftigten unter Kollektivvereinbarungen, einschließlich spezifischer Regionen und Länder. Vereinbarungen für nicht gewerkschaftlich organisierte Beschäftigte und sozialer Dialogumfang."
+            },
+            {
+                "id": "S1-9",
+                "description": "Geschlechterverteilung auf der obersten Führungsebene, prozentualer Anteil, Altersverteilung der Beschäftigten mit Kopfzahl, sowie Unternehmensdefinition von Topmanagement."
+            },
+            {
+                "id": "S1-10",
+                "description": "Informationen, ob alle Beschäftigten eine angemessene Entlohnung gemäß Referenzwerten erhalten, einschließlich Länder, in denen Löhne unter diesen Werten liegen."
+            },
+            {
+                "id": "S1-11",
+                "description": "Absicherung der Beschäftigten durch öffentliche Programme oder Leistungen bei Krankheit, Arbeitslosigkeit, Unfällen, Behinderungen, Elternurlaub und Ruhestand. Aufschlüsselung nach Beschäftigtenarten und Ländern."
+            },
+            {
+                "id": "S1-12",
+                "description": "Prozentsatz der Beschäftigten mit Behinderungen, nach Geschlecht aufgeschlüsselt, vorbehaltlich rechtlicher Einschränkungen bei der Datenerhebung. Kontextinformationen zur Interpretation der Daten."
+            },
+            {
+                "id": "S1-13",
+                "description": "Indikatoren für Ausbildung und Qualifikationen, nach Geschlecht: Teilnahme an Leistungsbeurteilungen und Schulungen, durchschnittliche Stundenanzahl, nach Kategorien und Geschlecht."
+            },
+            {
+                "id": "S1-14",
+                "description": "Prozentsatz der Beschäftigten, die durch das Gesundheits- und Sicherheitsmanagementsystem des Unternehmens abgedeckt sind. Daten zu Arbeitsunfällen, Todesfällen und krankheitsbedingten Ausfällen, einschließlich Audits."
+            },
+            {
+                "id": "S1-15",
+                "description": "Prozentsatz der Beschäftigten mit Anspruch auf familiären Urlaub und der Anspruchsberechtigten, die diesen Urlaub in Anspruch genommen haben, nach Geschlecht. Bestätigung des Anspruchs auf familiären Urlaub."
+            },
+            {
+                "id": "S1-16",
+                "description": "Geschlechtsspezifische Lohnlücke und Verhältnis der Vergütung zwischen dem höchstbezahlten und dem Median der Beschäftigten. Aufschlüsselung nach Beschäftigtenkategorie, Land und Vergütungskomponenten, angepasst an Kaufkraftunterschiede."
+            },
+            {
+                "id": "S1-17",
+                "description": "Anzahl gemeldeter Diskriminierungsfälle, einschließlich Belästigung und Beschwerden über interne sowie nationale Kanäle. Geldstrafen, Bußgelder und Entschädigungen, sowie Menschenrechtsverletzungen und ergriffene Abhilfemaßnahmen."
+            }
+        ]
+    },
+    {
+        "id": "ESRS S2",
+        "description": "Beschäftigte in der Wertschöpfungskette – Berichterstattung über Sozialstandards für Beschäftigte bei Lieferanten und Partnern, z. B. faire Arbeitsbedingungen, Vermeidung von Kinder- oder Zwangsarbeit, Einhaltung sozialer Mindeststandards entlang der gesamten Lieferkette, Lieferantenaudits zu Arbeits- und Sozialstandards und Berücksichtigung von ILO-Standards.",
+        "themes": [
+            {
+                "id": "S2-1",
+                "description": "Sorgfaltspflicht in Bezug auf Menschenrechte und Risikominderung"
+            },
+            {
+                "id": "S2-2",
+                "description": "Faire Löhne und Arbeitsbedingungen in der Lieferkette"
+            },
+            {
+                "id": "S2-3",
+                "description": "Gesundheits- und Sicherheitsvorfälle in Zulieferbetrieben"
+            },
+            {
+                "id": "S2-4",
+                "description": "Risikoabschätzungen für Kinder- und Zwangsarbeit"
+            },
+            {
+                "id": "S2-5",
+                "description": "ESG-Compliance-Überwachung von Lieferanten"
+            }
+        ]
+    },
+    {
+        "id": "ESRS S3",
+        "description": "Betroffene Gemeinschaften – Offenlegung der Auswirkungen unternehmerischer Aktivitäten auf lokale Gemeinschaften, Anwohner, indigene Gruppen und NGOs, einschließlich Dialog, Stakeholder-Engagement, Menschenrechtsaspekten und sozialer Infrastruktur (z. B. Stakeholder-Dialoge mit Anwohnern vor Bauprojekten, Investitionen in lokale Bildungs- oder Gesundheitsinitiativen, Wahrung der Rechte indigener Völker).",
+        "themes": [
+            {
+                "id": "S3-1",
+                "description": "Gemeinschaftsbeteiligung und Wirkungsmessung"
+            },
+            {
+                "id": "S3-2",
+                "description": "Soziale Investitionen und Beiträge zur lokalen Entwicklung"
+            },
+            {
+                "id": "S3-3",
+                "description": "Menschenrechtsauswirkungen auf betroffene Gemeinschaften"
+            },
+            {
+                "id": "S3-4",
+                "description": "Zugang zu grundlegenden Dienstleistungen und Infrastruktur"
+            },
+            {
+                "id": "S3-5",
+                "description": "Konsultationsprozesse mit Stakeholdern"
+            }
+        ]
+    },
+    {
+        "id": "ESRS S4",
+        "description": "Verbraucherinnen und Endverbraucher – Darstellung von Themen wie Produktsicherheit, verantwortungsvolles Marketing, Schutz von Kundendaten, Kundenzufriedenheit und fairen Vertragsbedingungen für Personen, die Produkte oder Dienstleistungen des Unternehmens konsumieren (z. B. klare Produktkennzeichnung, Beschwerdemechanismen für Endverbraucher, Datenschutzmaßnahmen).",
+        "themes": [
+            {
+                "id": "S4-1",
+                "description": "Produktsicherheitsvorfälle und Einhaltung gesetzlicher Vorschriften"
+            },
+            {
+                "id": "S4-2",
+                "description": "Schutz der Verbraucherdaten und Datenschutzmaßnahmen"
+            },
+            {
+                "id": "S4-3",
+                "description": "Ethik im Marketing und faire Werbung"
+            },
+            {
+                "id": "S4-4",
+                "description": "Mechanismen zur Bearbeitung von Kundenbeschwerden"
+            },
+            {
+                "id": "S4-5",
+                "description": "Barrierefreiheit und Inklusion von Produkten und Dienstleistungen"
+            }
+        ]
+    },
+    {
+        "id": "ESRS G1",
+        "description": "Geschäftspraktiken – Informationen zu Unternehmensführung, Ethik, Compliance, Anti-Korruptionsmaßnahmen, Transparenz und Corporate-Governance-Strukturen (z. B. Verhaltenskodizes für Führungskräfte, Whistleblower-Systeme, transparente Vorstandsentscheidungen, interne Kontrollmechanismen).",
+        "themes": [
+            {
+                "id": "G1-1",
+                "description": "Struktur, Zusammensetzung und Diversität des Vorstands"
+            },
+            {
+                "id": "G1-2",
+                "description": "Vergütung von Führungskräften, Anreize und Transparenz"
+            },
+            {
+                "id": "G1-3",
+                "description": "Ethikrichtlinien und Maßnahmen zur Korruptionsbekämpfung"
+            },
+            {
+                "id": "G1-4",
+                "description": "Schutz von Hinweisgebern, Meldekanäle und Compliance"
+            },
+            {
+                "id": "G1-5",
+                "description": "Risikomanagementrahmen, ESG-Aufsicht und interne Kontrollen"
+            },
+            {
+                "id": "G1-6",
+                "description": "ESG-Governance-Verantwortlichkeiten auf Vorstands- und Führungsebene"
+            }
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "csrd-services"
+version = "0.1.0"
+description = ""
+authors = ["Tobias Oberrauch <tobias.oberrauch@audius.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+loguru = "^0.7.3"
+fastapi = "^0.115.7"
+uvicorn = "^0.34.0"
+pydantic-settings = "^2.7.1"
+scikit-learn = "^1.6.1"
+python-multipart = "^0.0.20"
+langchain-huggingface = "^0.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pytest-asyncio = "^0.25.2"
+black = "^24.10.0"
+isort = "^5.13.2"
+flake8 = "^7.1.1"
+httpx = "^0.28.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "csrd_services.main:run"
+dev = "csrd_services.main:dev"
+tests = "pytest:main"
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
