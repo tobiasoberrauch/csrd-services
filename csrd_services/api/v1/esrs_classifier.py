@@ -41,7 +41,7 @@ async def upload_file(File: UploadFile = File(...), Model: ModelName = Form(...)
     if file_extension not in settings.SUPPORTED_FORMATS:
         raise HTTPException(
             status_code=400,
-            detail=f"Unsupported file format: {file_extension}. Supported formats: {", ".join(settings.SUPPORTED_FORMATS)}",
+            detail=f"Unsupported file format: {file_extension}. Supported formats: {', '.join(settings.SUPPORTED_FORMATS)}",
         )
 
     try:
