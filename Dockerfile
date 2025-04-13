@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.11-slim as builder
 
 WORKDIR /app
 
@@ -8,16 +8,22 @@ RUN pip install poetry
 # Copy poetry configuration files
 COPY pyproject.toml poetry.lock* ./
 
-# Configure poetry to not create a virtual environment
-RUN poetry config virtualenvs.create false
+# Configure poetry to export requirements
+RUN poetry export -f requirements.txt --without-hashes --without dev -o requirements.txt
 
-# Install dependencies - use --no-interaction flag to avoid prompts
-# Add --no-dev to exclude development dependencies in production
-RUN poetry lock --no-interaction && poetry install --no-interaction
+# Runtime stage
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy requirements from builder stage
+COPY --from=builder /app/requirements.txt .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application
 COPY . .
-RUN echo "Inhalt von /app/csrd_services:" && ls -la /app/csrd_services || echo "Ordner leer"
 
 # Create cache directory
 RUN mkdir -p /app/cache && chmod 777 /app/cache
@@ -26,4 +32,4 @@ RUN mkdir -p /app/cache && chmod 777 /app/cache
 EXPOSE 8000
 
 # Command to run the application
-CMD ["poetry", "run", "start"]
+CMD ["python", "-m", "csrd_services.main"]

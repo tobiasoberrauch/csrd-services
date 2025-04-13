@@ -16,7 +16,7 @@ pydantic-settings = "^2.7.1"
 scikit-learn = "^1.6.1"
 python-multipart = "^0.0.20"
 langchain-huggingface = "^0.1.2"
-torch = "^2.6.0"
+torch = {version = "^2.6.0", extras = ["cpu"]}
 
 
 [tool.poetry.group.dev.dependencies]
