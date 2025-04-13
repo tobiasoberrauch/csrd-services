@@ -1,4 +1,4 @@
 cache
-.env
+.env*
 .pytest_cache
 __pycache__

@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  csrd-services:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - SERVER_HOST=0.0.0.0
+      - SERVER_PORT=8000
+      - LOG_LEVEL=INFO
+      - CORS_ORIGINS=["http://your-frontend-domain.com"]
+      - HUGGINGFACE_TOKEN=${HUGGINGFACE_TOKEN}
+    volumes:
+      - cache-data:/app/cache
+
+volumes:
+  cache-data:
