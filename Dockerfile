@@ -3,13 +3,13 @@ FROM python:3.11-slim as builder
 WORKDIR /app
 
 # Install Poetry
-RUN pip install poetry
+RUN pip install poetry==1.5.1
 
 # Copy poetry configuration files
 COPY pyproject.toml poetry.lock* ./
 
-# Configure poetry to export requirements
-RUN poetry export -f requirements.txt --without-hashes --without dev -o requirements.txt
+# Configure poetry to export requirements - fix the command syntax
+RUN poetry export --format requirements.txt --without-hashes --without-dev -o requirements.txt
 
 # Runtime stage
 FROM python:3.11-slim
