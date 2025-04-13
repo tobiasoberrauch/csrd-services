@@ -3,6 +3,7 @@ name = "csrd-services"
 version = "0.1.0"
 description = ""
 authors = ["Tobias Oberrauch <tobias.oberrauch@audius.de>"]
+packages = [{ include = "csrd_services" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
