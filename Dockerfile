@@ -17,6 +17,7 @@ RUN poetry lock --no-interaction && poetry install --no-interaction
 
 # Copy the rest of the application
 COPY . .
+RUN echo "Inhalt von /app/csrd_services:" && ls -la /app/csrd_services || echo "Ordner leer"
 
 # Create cache directory
 RUN mkdir -p /app/cache && chmod 777 /app/cache
