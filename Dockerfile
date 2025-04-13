@@ -11,8 +11,9 @@ COPY pyproject.toml poetry.lock* ./
 # Configure poetry to not create a virtual environment
 RUN poetry config virtualenvs.create false
 
-# Install dependencies
-RUN poetry install
+# Install dependencies - use --no-interaction flag to avoid prompts
+# Add --no-dev to exclude development dependencies in production
+RUN poetry lock --no-interaction && poetry install --no-interaction
 
 # Copy the rest of the application
 COPY . .
