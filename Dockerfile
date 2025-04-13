@@ -9,7 +9,7 @@ RUN pip install poetry==1.5.1
 COPY pyproject.toml poetry.lock* ./
 
 # Configure poetry to export requirements - fix the command syntax
-RUN poetry export --format requirements.txt --without-hashes --without-dev -o requirements.txt
+RUN poetry export --format requirements.txt --without-hashes -o requirements.txt
 
 # Runtime stage
 FROM python:3.11-slim
