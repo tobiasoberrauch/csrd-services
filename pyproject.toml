@@ -16,6 +16,8 @@ pydantic-settings = "^2.7.1"
 scikit-learn = "^1.6.1"
 python-multipart = "^0.0.20"
 langchain-huggingface = "^0.1.2"
+sentence-transformers = { version = "^3.4.1", extras = ["torch"], optional = false }
+torch = "^2.6.0"  # ohne CUDA!
 
 
 [tool.poetry.group.dev.dependencies]
