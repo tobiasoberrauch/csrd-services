@@ -5,31 +5,31 @@ WORKDIR /app
 # Install Poetry
 RUN pip install poetry==1.5.1
 
-# Copy poetry configuration files
+# Copy pyproject.toml and poetry.lock
 COPY pyproject.toml poetry.lock* ./
 
-# Configure poetry to export requirements - fix the command syntax
-RUN poetry export --format requirements.txt --without-hashes -o requirements.txt
+# Install dependencies with Poetry
+RUN poetry install --no-dev --only main
 
 # Runtime stage
-FROM python:3.11-slim
+FROM python:3.11-slim as runtime
 
 WORKDIR /app
 
-# Copy requirements from builder stage
-COPY --from=builder /app/requirements.txt .
+# Copy .venv from builder
+COPY --from=builder /app/.venv /app/.venv
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy the rest of the application
+# Copy the application code
 COPY . .
+
+# Set PATH
+ENV PATH="/app/.venv/bin:$PATH"
 
 # Create cache directory
 RUN mkdir -p /app/cache && chmod 777 /app/cache
 
-# Expose the port the app runs on
+# Expose port
 EXPOSE 8000
 
-# Command to run the application
+# Run the application
 CMD ["python", "-m", "csrd_services.main"]
